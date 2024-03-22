@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+   
+    <link rel="stylesheet" type="text/css" href="static\css\signup.css">
+</head>
+
+<body>
+    
+    <div class="login-container">
+        <h2>New Account</h2>
+        <div class="icon-dropdown-container">
+            <img src="https://img.icons8.com/ios/452/user--v1.png" alt="User Icon" class="user-icon">
+            <select id="user-type" name="user-type" class="dropdown">
+                <option value="admin">Admin</option>
+                <option value="employee">Employee</option>
+            </select>
+        </div>
+
+        <form action="#" method="post">
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" placeholder="Type your email here"><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Type your password here"><br><br>
+            <label for="password">Re-type Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Type your password again"><br><br>
+           
+            <button type="submit" class="login-button">Create an account</button>
+        </form>
+    </div>
+
+</body>
